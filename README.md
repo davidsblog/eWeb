@@ -1,5 +1,7 @@
 # eWeb
-An experiment in monitoring entropy on Linux machines.
+An experiment in monitoring entropy on Linux machines, here it is in action (click to play):
+
+[![Video on YouTube](http://img.youtube.com/vi/BBNv399A0qg/0.jpg)](http://www.youtube.com/watch?v=BBNv399A0qg)
 
 #Build
 
