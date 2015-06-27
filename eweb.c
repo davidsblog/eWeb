@@ -45,12 +45,12 @@ int main(int argc, char **argv)
 
 void* polling_thread(void *args)
 {
+    struct timespec ts;
+    ts.tv_sec = 0;
+    ts.tv_nsec = 250 * 1000000; // 250 ms
     while (1)
     {
         entropy = get_entropy();
-        struct timespec ts;
-        ts.tv_sec = 0;
-        ts.tv_nsec = 250 * 1000000; // 250 ms
         nanosleep(&ts, NULL);
     }
     return NULL;
